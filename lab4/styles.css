@@ -1,0 +1,63 @@
+body {
+	font-family: Arial, Helvetica, sans-serif; /* Set font */
+	background-color: #C0C0C0; /* Page colour */
+	font-size: 1em; /* Text size */
+}
+
+a {
+	text-decoration: none; /* Remove the underline from links */
+	color: #CC0000; /* change the colour, note US spelling and HEX notation */
+	font-weight: bold; /* make the text bold */
+}
+
+a:link {
+	color: #FF0000; /* colour of link which has not been visited */
+} 
+
+a:visited {
+	color: #0000FF; /* colour of link which has been visited */
+}
+a:hover {
+	color: #FF0000; /* change colour when pointer moves over hyperlink */
+}
+
+h1
+{
+    font-size: 2em;
+}
+
+h2
+{
+    font-size: 1.5em;
+}
+
+h3
+{
+    font-size: 1.25em;
+}
+
+h4
+{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.container
+{
+    border: .25em solid #FF0000;
+    background-color: #FFFFFF;
+    padding: 1em;
+    width: 90%;
+    
+}
+
+.heading {
+	color:#333333;
+}
+
+.subHeading {
+	color: #808080;
+	font-style: italic;
+	font-size: 1.25em;
+	
+}
