@@ -1,0 +1,86 @@
+/* 
+Colours:
+- backgrournd = dark blue
+- h1 needs to be dark blue
+- subheading should be a dark orange in colour
+- navigation bar = dark orange
+- footer = dark orange
+- Book text
+*/
+
+body {
+  margin: auto;
+	font-family: Arial, Helvetica, sans-serif; /* Set font */
+	background-color: #280e9e; /* Page colour */
+	font-size: 1em; /* Text size */
+  padding: 0;
+  width: 1200px;
+}
+
+.headerArea {
+  background-color: #FF5733;
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif; /* Set font */
+	background-color: #FF5733; /* background colour */
+	font-size: 1em; /* Text size */
+  color: white; /*text color*/
+}
+
+.book-container {
+  height: 150px;
+}
+
+.image-container {
+  float: left;
+}
+
+.column1 {
+  display: inline-block;
+}
+.left2 {
+  width: 25%;
+}
+
+.middle3 {
+  width: 50%;
+}
+
+.right4 {
+  width: 25%;
+  float: right;
+}
+
+#mainContentArea {
+  background-color:  #FFC300 ;
+  float: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+img {
+    float: auto;
+  } 
+
+h1 {
+    background-color: #FFC300;
+    color: #280e9e;
+}
+
+h4 {
+    background-color: #FFC300;   
+    color: #FF5733;
+}
+
+footer {
+	font-family: Arial, Helvetica, sans-serif; /* Set font */
+	background-color: #C70039; /* Page colour */
+	font-size: 1em; /* Text size */
+}
