@@ -1,0 +1,90 @@
+
+body {
+  margin: auto;
+	font-family: Arial, Helvetica, sans-serif; /* Set font */
+	background-color: #280e9e; /* page background  colour */
+	font-size: 1em; /* text size */
+  padding: 0;
+  width: 1200px;
+}
+
+.banner-img {
+  width: 100%;  /* makes the banner image fit the width of the div*/
+  padding-bottom;: 1px /* small bit of padding to remove dead space*/
+}
+
+nav {
+  font-family: Arial, Helvetica, sans-serif; /* set font */
+	background-color: #FF5733; /* background colour */
+	font-size: 1em; /* text size */
+  color: white; /*text color*/
+  padding-top: 1px
+}
+
+a:link, a:visited, a:active{
+  color: white; /*text color*/
+}
+
+a:hover {
+  color: #280e9e;  /*text color*/
+}
+
+.book-container {
+  height: 150px;
+  padding: 20px;
+}
+
+.image-container {
+  float: left;
+}
+
+.column1 {
+  display: inline-block;
+}
+.left2 {
+  width: 25%;
+}
+
+.middle3 {
+  width: 50%;
+}
+
+.right4 {
+  width: 25%;
+  float: right;
+}
+
+#mainContentArea {
+  background-color:  #f5e6b5 ;
+  float: auto;
+  padding-top: 1px
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+h1 {
+    background-color: #f5e6b5;
+    color: #280e9e; /* font colour*/
+    size: 90%; /* text size */
+    text-align: center;
+}
+
+h4 {
+    background-color: #f5e6b5;   
+    color: #FF5733;
+    text-align: center;
+}
+
+footer {
+	font-family: Arial, Helvetica, sans-serif; /* set font */
+	background-color: #FF5733; /* page colour */
+	font-size: 1em; /* text size */
+  color: white; /* font colour*/
+  text-align: center; /* centers text*/
+  padding-top: 1px /* small bit of padding to remove dead space*/
+}
