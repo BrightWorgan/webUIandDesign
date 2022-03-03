@@ -8,5 +8,43 @@ nav {
       background-color: purple; /* background colour */
       font-size: 1em; /* text size */
     color: white; /*text color*/
-    padding-top: 1px
+    padding-top: 1px;
+    padding-bottom: 1ps;
   }  
+
+  a:link, a:visited, a:active,a:hover {
+    color: white; /*text color*/
+  }
+ 
+  .button-column   {
+    display: block;
+    background-color: white;
+    color: black;
+    width: 25%;
+    text-align: left;
+  }
+
+  .text-container{
+    display: right;
+    background-color: white;
+    color: black;
+    width: 25%;
+    text-align: right;
+  }
+
+  .fb-button {
+    background-color: #b2c1ce ;
+    border: 2px solid #9aa6b0;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: purple;
+  color: white;
+}
