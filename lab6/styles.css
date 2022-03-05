@@ -1,3 +1,7 @@
+body {
+background-color: plum;
+}
+
 .banner-img {
     padding-bottom: 1px;
     width: 100%;
@@ -15,7 +19,10 @@ nav {
   a:link, a:visited, a:active,a:hover {
     color: white; /*text color*/
   }
- 
+  .button-container{
+    width: 50%;
+  }
+
   .button-column   {
     display: block;
     background-color: white;
@@ -25,7 +32,7 @@ nav {
   }
 
   .text-container{
-    display: right;
+    display: block;
     background-color: white;
     color: black;
     width: 25%;
