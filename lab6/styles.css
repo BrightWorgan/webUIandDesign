@@ -9,7 +9,7 @@ background-color: plum;
 
 nav {
     font-family: Arial, Helvetica, sans-serif; /* set font */
-      background-color: purple; /* background colour */
+      background-color: #573391; /* background colour */
       font-size: 1em; /* text size */
     color: white; /*text color*/
     padding-top: 1px;
@@ -43,7 +43,7 @@ nav {
     background-color: #b2c1ce ;
     border: 2px solid #9aa6b0;
     color: white;
-    padding: 15px 32px;
+    padding: 0;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -54,4 +54,8 @@ nav {
 .button:hover {
   background-color: purple;
   color: white;
+}
+
+footer {
+  background-color: #573391;
 }
