@@ -1,3 +1,11 @@
+/*
+Colour Palette :)
+FFF4C9
+C7E78B
+81AE64
+709053 */
+
+
 body {
     background-color: #DAF7A6;
     }
@@ -9,7 +17,7 @@ body {
     
     nav {
         font-family: Arial, Helvetica, sans-serif; /* set font */
-          background-color: purple; /* background colour */
+          background-color: green; /* background colour */
           font-size: 1em; /* text size */
         color: white; /*text color*/
         padding-top: 1px;
@@ -54,4 +62,10 @@ body {
     .button:hover {
       background-color: purple;
       color: white;
+    }
+
+    footer{
+      background-color: #81AE64;
+      color: white;
+      text-align: center;
     }

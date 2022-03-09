@@ -1,61 +1,82 @@
 body {
-background-color: plum;
+background-color: #BAABDA;
+margin: 0px;
+width: 1200px;
+margin: auto;
+margin-top:
 }
 
 .banner-img {
-    padding-bottom: 1px;
     width: 100%;
+    vertical-align: bottom;
   }
 
 nav {
     font-family: Arial, Helvetica, sans-serif; /* set font */
-      background-color: #573391; /* background colour */
-      font-size: 1em; /* text size */
+    background-color: #573391; /* background colour */
+    font-size: 1em; /* text size */
     color: white; /*text color*/
-    padding-top: 1px;
-    padding-bottom: 1ps;
   }  
 
   a:link, a:visited, a:active,a:hover {
     color: white; /*text color*/
   }
+
+.main-content-area{
+  overflow: hidden;
+  padding: 2%;
+  background-color: #D1D1D1;
+}
+
+footer > p {
+  margin: 0px;
+}
+
   .button-container{
-    width: 50%;
+    width: 25%;
+    float: left;
   }
 
   .button-column   {
     display: block;
-    background-color: white;
+    background-color: #D1D1D1;
     color: black;
-    width: 25%;
+    width: 100%;
     text-align: left;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
   }
 
   .text-container{
-    display: block;
-    background-color: white;
     color: black;
-    width: 25%;
+    width: 73%;
+    padding-left: 2%;
     text-align: right;
+    float:left;
   }
 
   .fb-button {
-    background-color: #b2c1ce ;
-    border: 2px solid #9aa6b0;
+    background-color: #D1D1D1;
+    border: 2px solid #D1D1D1;
     color: white;
     padding: 0;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    float: left;
     font-size: 16px;
     transition-duration: 0.4s;
 }
 
 .button:hover {
-  background-color: purple;
+  background-color: #573391;
   color: white;
 }
 
 footer {
   background-color: #573391;
+  color: white;
+  text-align: center;
 }
