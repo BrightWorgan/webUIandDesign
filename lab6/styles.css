@@ -3,7 +3,6 @@ background-color: #BAABDA;
 margin: 0px;
 width: 1200px;
 margin: auto;
-margin-top:
 }
 
 .banner-img {
@@ -16,6 +15,8 @@ nav {
     background-color: #573391; /* background colour */
     font-size: 1em; /* text size */
     color: white; /*text color*/
+    padding-right: 30px;
+    width: auto;
   }  
 
   a:link, a:visited, a:active,a:hover {
@@ -25,7 +26,7 @@ nav {
 .main-content-area{
   overflow: hidden;
   padding: 2%;
-  background-color: #D1D1D1;
+  background-color: #ece4e4;
 }
 
 footer > p {
@@ -39,12 +40,11 @@ footer > p {
 
   .button-column   {
     display: block;
-    background-color: #D1D1D1;
+    background-color: #ece4e4;
     color: black;
     width: 100%;
     text-align: left;
     margin: 2px;
-    text-align: center;
     text-decoration: none;
     font-size: 16px;
     transition-duration: 0.4s;

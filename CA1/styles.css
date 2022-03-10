@@ -10,62 +10,76 @@ body {
     background-color: #DAF7A6;
     }
     
-    .banner-img {
-        padding-bottom: 1px;
-        width: 100%;
-      }
-    
-    nav {
-        font-family: Arial, Helvetica, sans-serif; /* set font */
-          background-color: green; /* background colour */
-          font-size: 1em; /* text size */
-        color: white; /*text color*/
-        padding-top: 1px;
-        padding-bottom: 1ps;
-      }  
-    
-      a:link, a:visited, a:active,a:hover {
-        color: white; /*text color*/
-      }
-      .button-container{
-        width: 50%;
-      }
-    
-      .button-column   {
-        display: block;
-        background-color: white;
-        color: black;
-        width: 25%;
-        text-align: left;
-      }
-    
-      .text-container{
-        display: block;
-        background-color: white;
-        color: black;
-        width: 25%;
-        text-align: right;
-      }
-    
-      .fb-button {
-        background-color: #b2c1ce ;
-        border: 2px solid #9aa6b0;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        transition-duration: 0.4s;
+.banner-img {
+    padding-bottom: 1px;
+    width: 100%;
     }
     
-    .button:hover {
-      background-color: purple;
-      color: white;
+nav {
+    font-family: Arial, Helvetica, sans-serif; /* set font */
+    background-color: green; /* background colour */
+    font-size: 1em; /* text size */
+    color: white; /*text color*/
+    padding-top: 1px;
+    padding-bottom: 1ps;
+    }  
+    
+  a:link, a:visited, a:active,a:hover {
+    color: white; /*text color*/
     }
 
-    footer{
-      background-color: #81AE64;
-      color: white;
-      text-align: center;
+/* Main Content Area */
+  .main-content-area{
+    overflow: hidden;
+    padding: 2%;
+    background-color: #ece4e4;
+    }
+      
+  .button-container{
+    width: 25%;
+    float: left;
+    }
+      
+  .button-column   {
+    display: block;
+    background-color: #ece4e4;
+    color: black;
+    width: 100%;
+    text-align: left;
+    margin: 2px;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    }
+      
+  .text-container{
+    color: black;
+    width: 73%;
+    padding-left: 2%;
+    text-align: right;
+    float:left;
+    }
+    
+  .socail-media-links {
+    /* background-color: #b2c1ce ; */
+    /* border: 2px solid #9aa6b0; */
+    /* color: white; */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    }
+    
+  .button:hover {
+    background-color: purple;
+    color: white;
+    }
+
+  footer{
+    background-color: #81AE64;
+    color: white;
+    text-align: center;
+    margin: 0px;
     }
