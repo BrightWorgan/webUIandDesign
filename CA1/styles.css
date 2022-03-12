@@ -5,6 +5,15 @@ C7E78B
 81AE64
 709053 */
 
+/* @font-face {
+  font-family: 'openDyslexic';
+  src: url('fonts/OpenDyslexic-Regular.otf') format(''),
+       url('fonts/OpenDyslexic-Bold.otf') format(''),
+       url('fonts/OpenDyslexic-BoldItalic.otf') format(''),
+       url('fonts/OpenDyslexic-Italic.otf') format('');
+  font-style: normal;
+} */
+
 
 body {
     background-color: #DAF7A6;
@@ -13,6 +22,7 @@ body {
 .banner-img {
     padding-bottom: 1px;
     width: 100%;
+    vertical-align: top;
     }
     
 nav {
@@ -34,32 +44,35 @@ nav {
     padding: 2%;
     background-color: #ece4e4;
     }
-      
-  .button-container{
-    width: 25%;
-    float: left;
-    }
-      
-  .button-column   {
-    display: block;
-    background-color: #ece4e4;
-    color: black;
-    width: 100%;
-    text-align: left;
-    margin: 2px;
-    text-decoration: none;
-    font-size: 16px;
-    transition-duration: 0.4s;
-    }
-      
-  .text-container{
-    color: black;
-    width: 73%;
+
+  .first-food-area{
     padding-left: 2%;
-    text-align: right;
-    float:left;
-    }
-    
+    float:left; 
+    background: #DAF7A6;
+    width:30%;
+    height:500px;
+    overflow: hidden;
+  }
+
+  .second-route-area{
+    padding-left: 3%;
+    float:left; 
+    background: #DAF7A6;
+    width:30%;
+    height:500px;
+    overflow: hidden;
+  }
+
+  .third-bin-map{
+    padding-left: 3%;
+    padding-right:2%;
+    float:right;
+    background: #DAF7A6;
+    width:30%;
+    height:500px;
+    overflow: hidden;
+  }
+  
   .socail-media-links {
     /* background-color: #b2c1ce ; */
     /* border: 2px solid #9aa6b0; */
@@ -82,4 +95,11 @@ nav {
     color: white;
     text-align: center;
     margin: 0px;
+    vertical-align: baseline;
     }
+
+  p{
+    color: black;
+    font-size: large;
+    text-align: center;
+  }
