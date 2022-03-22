@@ -16,8 +16,21 @@ C7E78B
 
 body {
     background-color: #DAF7A6;
+    padding: 0px;
+    margin: 0px;
     }
     
+nav > a {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0px;
+  border-right: 1px solid black;
+  text-align: center;
+}
+
+nav > a:hover {
+  opacity: 0.5;
+}
 .banner-img {
     padding-bottom: 1px;
     width: 100%;
@@ -66,19 +79,19 @@ nav {
 }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .navbar a {
     float: none;
     display: block;
   }
-} 
+}  */
 
 
 /* Main Content Area */
   .main-content-area{
     overflow: hidden;
     padding: 2%;
-    background-color: #ece4e4;
+    background-color: #DAF7A6;
     }
 
   .first-food-area{
@@ -109,6 +122,43 @@ nav {
     overflow: hidden;
   }
   
+/* Banner Image Area */
+.image-content-area{
+  overflow: hidden;
+  padding: 2%;
+  background-color: #DAF7A6;
+  text-align: center;
+  }
+
+.first-area{
+  padding-left: 2%;
+  float:left; 
+  background: #DAF7A6;
+  width:30%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.second-area{
+  padding-left: 3%;
+  float:left; 
+  background: #DAF7A6;
+  width:30%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.third-area{
+  padding-left: 3%;
+  padding-right:2%;
+  float:right;
+  background: #DAF7A6;
+  width:30%;
+  overflow: hidden;
+  text-align: center;
+}
+
+
   .socail-media-links {
     /* background-color: #b2c1ce ; */
     /* border: 2px solid #9aa6b0; */
@@ -140,28 +190,3 @@ nav {
     text-align: center;
   }
 
-   /* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: #ccc;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-} 
