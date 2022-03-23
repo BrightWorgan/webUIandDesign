@@ -196,16 +196,16 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #709053;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
+  float: auto;
 }
 
-/* Style the container */
+/* Style the container*/
 .contact-container {
   border-radius: 5px;
   background-color: #DAF7A6;
@@ -214,14 +214,14 @@ input[type=submit] {
 
 /* Floating column for labels: 25% width */
 .col-25 {
-  float: left;
+  float: auto;
   width: 25%;
   margin-top: 6px;
 }
 
 /* Floating column for inputs: 75% width */
 .col-75 {
-  float: left;
+  float: auto;
   width: 75%;
   margin-top: 6px;
 }
