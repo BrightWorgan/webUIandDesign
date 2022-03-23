@@ -26,22 +26,50 @@
         <div>
             <h1>VegDog was created to help make travelling around both Ireland and Northern Ireland with our beloved dogs just a little easier. So are you ready for your next dog friendly adventure in Ireland?</h1>
         </div>
-        <!-- Main Content Area- Will have multiple divs here with images-->
-        <div class="mainContentArea">
-            <div class="first-food-area">
-                <h2>Map of Cafes</h2>
-                <p>Copy text copy text Woo!</p>
-            </div>
-            <div class="second-route-area">
-                <h2>Map of Routes</h2>
-                <p>Copy text copy text Woo!</p>
-            </div>
-            <div class="third-bin-map">
-                <h2>Map of Bins</h2>
-                <p>Copy text copy text Woo!</p>
-            </div>
-        </div>
-        </div>
+        <!-- Contact Form-->
+        <div class="contact-container">
+            <form action="action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="ireland">Ireland</option>
+                    <option value="northern ireland">Northern Ireland</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
         <br>
         <div>
         <!-- posh/cute travel quoate for vibes -->
