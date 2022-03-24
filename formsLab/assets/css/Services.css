@@ -1,0 +1,55 @@
+#left{
+    padding: .4em;
+    float: left;
+    width: 24%;
+    margin-right: 1%;
+}
+#right{
+    float: right;
+    width: 72%;
+    margin: 0;
+}
+.serviceList {
+    font-size: 0.8em;
+    list-style-type: circle;
+    margin: 0;
+    padding-left: .4em;
+    font-weight: bold;
+    color: #333333;
+}
+.serviceList li {
+        margin-bottom: 2em;
+}
+
+.serviceList a{
+    color: #000080;
+    text-decoration: none;
+}
+.serviceList a:hover{
+    color: #CC0000;
+}
+.greyText{
+    color: #808080;
+}
+.serviceItem{
+    margin: .4em .43m 1.2em .4em;
+    border: .1em dotted #CC0000;
+    padding: .4em;
+    height: 9.2em;
+}
+.serviceTitle{
+    color: #000080;
+    font-weight: bolder;
+}
+
+.topLink{
+	font-size: 0.8em;
+    text-decoration: none; /* Remove the underline from links */
+	color: #CC0000;
+	font-weight: bold; /* make the text bold */
+}
+
+.topLink:hover{
+    text-decoration: underline; /* Remove the underline from links */
+	color: #000000;
+}
