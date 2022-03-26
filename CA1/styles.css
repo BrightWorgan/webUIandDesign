@@ -52,14 +52,12 @@ nav {
 /* h1 */
 h1, h2 {
   font-size: 20x;
-  text-align: center;
 }
 
 /* paragraph tag*/
 p{
     color: black;
     font-size: large;
-    text-align: center;
 }
 
 
@@ -115,7 +113,7 @@ color: #709053;
   text-align: center;
   }
 
-.first-area{
+.first-area, .cafe-area {
   padding-left: 2%;
   float:left; 
   background: #DAF7A6;
@@ -154,6 +152,12 @@ color: black;
 cursor: pointer;
 }
 
+/* Travel Quoate */
+.travel-quoate{
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+}
+
 /*Social Media Button/links Area*/
   .socail-media-links {
     padding: 15px 32px;
@@ -166,7 +170,8 @@ cursor: pointer;
 /*Back to the Top Button*/
 .myBtn {
   overflow: hidden;
-  text-align: right;
+  position: sticky;
+  top: 0px;
 }
 
 /*On Hover Color Change*/
@@ -190,6 +195,37 @@ footer{
   vertical-align: baseline;
   }
 
+/* About Page columns */
+.image-column{
+float: auto;
+}
+.text-column{
+  float: left;
+  text-align: left;
+  width: 30%;
+}
+
+/* Information Sources Page columns */
+.text-area{
+ text-align: left;
+}
+
+  /* Contact Page column*/
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+.contactImage {
+  text-align: center;
+}
+
 /* Contact Form */
 .contact-container {
   border-radius: 5px;
@@ -198,9 +234,9 @@ footer{
 }
 
 input[type=text], select, textarea{
-  width: 100%;
+  width: 60%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
@@ -216,18 +252,18 @@ input[type=submit] {
   background-color: #709053;
   color: white;
   padding: 12px 20px;
-  border: none;
+  border: 2px solid black;
   border-radius: 4px;
   cursor: pointer;
   float: auto;
 }
 
-/* Submit button */
+/* Reset button */
 input[type=reset] {
   background-color: #709053;
   color: white;
   padding: 12px 20px;
-  border: none;
+  border: 2px solid black;
   border-radius: 4px;
   cursor: pointer;
   float: auto;
@@ -252,7 +288,7 @@ input[type=reset] {
   clear: both;
 }
 
-/* Responsive layout -> when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* Contact Form Responsive layout --> when screen < 600px in width, the columns stack vertically rather than next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
