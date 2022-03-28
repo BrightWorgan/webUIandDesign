@@ -45,7 +45,7 @@ nav {
     padding-bottom: 1ps;
     }  
     
-  a:link, a:visited, a:active,a:hover {
+a:link, a:visited, a:active,a:hover {
     color: white; /*text color*/
     }
 
@@ -54,8 +54,14 @@ nav {
 }
 
 /* h1 */
-h1, h2 {
-  font-size: 20x;
+h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+/* h2 */
+h2 {
+  font-size: 20px;
 }
 
 /* paragraph tag*/
@@ -74,79 +80,41 @@ color: #709053;
 }
 
 /* Main Content Area */
-  .map-title-area{
+.map-title-area{
     overflow: hidden;
     padding: 2%;
     background-color: #DAF7A6;
     text-align: center;
+    overflow: hidden;
     }
 
-  .first-food-area{
+.first-food-area{
     padding-left: 2%;
     float:left; 
     background: #DAF7A6;
-    width:30%;
-    height:130px;
+    width:33.33%;
+    height:200px;
     overflow: hidden;
   }
 
-  .second-route-area{
+.second-route-area{
     padding-left: 3%;
     float:left; 
     background: #DAF7A6;
-    width:30%;
-    height:130px;
+    width:33.33%;
+    height:200px;
     overflow: hidden;
   }
 
-  .third-bin-map{
+.third-bin-map{
     padding-left: 3%;
     padding-right:2%;
     float:right;
     background: #DAF7A6;
-    width:30%;
-    height:130px;
+    width:33.33%;
+    height:200px;
     overflow: hidden;
   }
-  
-/* Map Area */
-.image-content-area{
-  overflow: hidden;
-  padding: 2%;
-  background-color: #DAF7A6;
-  text-align: center;
-  }
-
-.first-area, .cafe-area {
-  padding-left: 2%;
-  float:left; 
-  background: #DAF7A6;
-  width:30%;
-  height:500px;
-  overflow: hidden;
-  text-align: center;
-}
-
-.second-area{
-  padding-left: 3%;
-  float:left; 
-  background: #DAF7A6;
-  width:30%;
-  height:500px;
-  overflow: hidden;
-  text-align: center;
-}
-
-.third-area{
-  padding-left: 3%;
-  padding-right:2%;
-  float:right;
-  background: #DAF7A6;
-  width:30%;
-  height:500px;
-  overflow: hidden;
-  text-align: center;
-}
 
 /*Botton CSS*/
 button{
@@ -163,7 +131,7 @@ cursor: pointer;
 }
 
 /*Social Media Button/links Area*/
-  .socail-media-links {
+.socail-media-links, .map-button {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -176,6 +144,12 @@ cursor: pointer;
   overflow: hidden;
   position: sticky;
   top: 0px;
+  float: right;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
 }
 
 /*On Hover Color Change*/
@@ -214,25 +188,36 @@ float: auto;
  text-align: left;
 }
 
-/* Contact Page column*/
+/* Cafe Page column*/
 .cafe-area{
   text-align: center;
   width: 100%;
+  height: auto;
 }
 
-  /* Contact Page column*/
-  .column {
+/* Contact Page column*/
+.column {
     float: left;
+    padding: 2px;
     width: 50%;
   }
   
-  /* Clear floats after the columns */
-  .row:after {
+* {
+  box-sizing: border-box;
+  }
+
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
   } 
-.contactImage {
+
+.centre-image {
+  text-align: center;
+}
+
+.about-image {
   text-align: center;
   float: right;
 }
