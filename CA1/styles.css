@@ -5,98 +5,174 @@ C7E78B
 81AE64
 709053 */
 
+
 /*Main Body CSS*/
+
 body {
   background-color: #DAF7A6;
   padding: 0px;
   margin: 0px;
-  font-family: Garamond, sans-serif; /* set font */
-  }
+  font-family: Garamond, sans-serif;
+  /* set font */
+}
+
 
 /*Top image banner with logo*/
+
 .banner-img {
-  padding-bottom: 1px;
   width: 100%;
+  max-height: 300px;
   vertical-align: top;
-  }
+}
+
 
 /*Nav Bar styling*/
-nav > a {
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 0px;
-  border-right: 1px solid black;
-  border-left: 1px;
-  border-right: 1px;
-  text-align: center;
-  font-size: 20px;
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #709053;
 }
 
-nav > a:hover {
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav i {
+  margin: 5px;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+nav li a:hover {
+  background-color: #111;
+}
+
+nav .active {
+  background-color: #04AA6D;
+}
+
+
+/* nav>.active {
+  float: none;
+  display: inline-block;
+} */
+
+nav>a:hover {
   opacity: 0.5;
 }
-    
-nav {
-    width: 100%;
-    background-color: #709053; /* background colour */
-    font-size: 3em; /* text size */
-    color: white; /*text color*/
-    padding-top: 1px;
-    padding-bottom: 1ps;
-    }  
-    
-a:link, a:visited, a:active,a:hover {
-    color: white; /*text color*/
-    }
 
-.opening-text{
+nav {
+  width: 100%;
+  background-color: #709053;
+  /* background colour */
+  /* font-size: 2em; */
+  /* text size */
+  color: white;
+  /*text color*/
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+  color: white;
+  /*text color*/
+}
+
+.opening-text {
   text-align: center;
 }
 
+
 /* h1 */
-h1{
+
+h1 {
   font-size: 30px;
   text-align: center;
 }
 
+
 /* h2 */
+
 h2 {
   font-size: 20px;
 }
 
+
 /* paragraph tag*/
-p{
-    color: black;
-    font-size: large;
+
+p {
+  color: black;
+  font-size: large;
 }
 
 
 /* Page Divider */
-.rounded{
-width: 50%;
-text-align: center;
-overflow: hidden;
-color: #709053;
+
+.rounded {
+  width: 50%;
+  text-align: center;
+  overflow: hidden;
+  color: #709053;
 }
 
+
 /* Main Content Area */
-.map-title-area{
-    overflow: hidden;
-    padding: 2%;
-    background-color: #DAF7A6;
-    text-align: center;
-    overflow: hidden;
-    }
 
-.first-food-area{
-    padding-left: 2%;
-    float:left; 
-    background: #DAF7A6;
-    width:33.33%;
-    height:200px;
-    overflow: hidden;
+.map-title-area {
+  overflow: hidden;
+  padding: 2%;
+  background-color: #DAF7A6;
+  text-align: center;
+}
+
+.map-area {
+  padding: 2%;
+  margin: 0px;
+  display: inline-block;
+  background: #DAF7A6;
+  width: 33%;
+  overflow: hidden;
+}
+
+footer p {
+  margin: 0px;
+}
+
+.map-area iframe {
+  width: 100%;
+}
+
+.map-area p {
+  height: 25px;
+}
+
+.map-area button {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .map-area {
+    width: 100%;
   }
+}
 
+
+/* 
 .second-route-area{
     padding-left: 3%;
     float:left; 
@@ -114,37 +190,31 @@ color: #709053;
     width:33.33%;
     height:200px;
     overflow: hidden;
-  }
+  } */
+
 
 /*Botton CSS*/
-button{
-background-color: #FFF4C9;
-border: 4px solid white;
-color: black;
-cursor: pointer;
+
+button {
+  background-color: #FFF4C9;
+  border: 4px solid white;
+  color: black;
+  cursor: pointer;
 }
 
+
 /* Travel Quoate */
-.travel-quoate{
+
+.travel-quoate {
   font-family: 'Satisfy', cursive;
   text-align: center;
 }
 
-/*Social Media Button/links Area*/
-.socail-media-links, .map-button {
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    transition-duration: 0.4s;
-    }
 
-/*Back to the Top Button*/
-.myBtn {
-  overflow: hidden;
-  position: sticky;
-  top: 0px;
-  float: right;
+/*Social Media Button/links Area*/
+
+.socail-media-links,
+.map-button {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -152,66 +222,98 @@ cursor: pointer;
   transition-duration: 0.4s;
 }
 
+
+/*Back to the Top Button*/
+
+#myBtn {
+  overflow: hidden;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 2s;
+}
+
+
 /*On Hover Color Change*/
+
 .myBtn:hover {
   background-color: #7dbbf1;
 }
 
+
 /*Base image abve footer*/
-.bottom-banner-image{
+
+.bottom-banner-image {
   padding: 0px;
   margin: 0px;
+  width: 100%;
   overflow: hidden;
 }
 
+
 /* Footer*/
-footer{
+
+footer {
   background-color: #81AE64;
   color: white;
   text-align: center;
   margin: 0px;
   vertical-align: baseline;
-  }
+}
+
 
 /* About Page columns */
-.image-column{
-float: auto;
+
+.image-column {
+  float: auto;
 }
-.text-column{
+
+.text-column {
   float: left;
   text-align: left;
   width: 30%;
 }
 
+
 /* Information Sources Page columns */
-.text-area{
- text-align: left;
+
+.text-area {
+  text-align: left;
 }
 
+
 /* Cafe Page column*/
-.cafe-area{
+
+.cafe-area {
   text-align: center;
   width: 100%;
   height: auto;
 }
 
+
 /* Contact Page column*/
+
 .column {
-    float: left;
-    padding: 2px;
-    width: 50%;
-  }
-  
+  float: left;
+  padding: 2px;
+  width: 50%;
+}
+
 * {
   box-sizing: border-box;
-  }
+}
+
 
 /* Clear floats after the columns */
+
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } 
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .centre-image {
   text-align: center;
@@ -222,14 +324,18 @@ float: auto;
   float: right;
 }
 
+
 /* Contact Form */
+
 .contact-container {
   border-radius: 5px;
   background-color: #DAF7A6;
   padding: 20px;
 }
 
-input[type=text], select, textarea{
+input[type=text],
+select,
+textarea {
   width: 60%;
   padding: 12px;
   border: 1px solid black;
@@ -243,7 +349,9 @@ label {
   display: inline-block;
 }
 
+
 /* Submit button */
+
 input[type=submit] {
   background-color: #709053;
   color: white;
@@ -254,7 +362,9 @@ input[type=submit] {
   float: auto;
 }
 
+
 /* Reset button */
+
 input[type=reset] {
   background-color: #709053;
   color: white;
@@ -265,7 +375,9 @@ input[type=reset] {
   float: auto;
 }
 
+
 /* Columns for contact form*/
+
 .col-25 {
   float: auto;
   width: 25%;
@@ -284,9 +396,13 @@ input[type=reset] {
   clear: both;
 }
 
+
 /* Contact Form Responsive layout --> when screen < 600px in width, the columns stack vertically rather than next to each other */
+
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+  .col-25,
+  .col-75,
+  input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
