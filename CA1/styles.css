@@ -53,14 +53,22 @@ nav i {
 }
 
 
-/* Change the link color to #111 (black) on hover */
+/*
+Colour Palette :)
+FFF4C9
+C7E78B
+81AE64
+709053 */
+
+
+/* hover colour for link */
 
 nav li a:hover {
-  background-color: #111;
+  background-color: #C7E78B;
 }
 
 nav .active {
-  background-color: #04AA6D;
+  background-color: #81AE64;
 }
 
 
