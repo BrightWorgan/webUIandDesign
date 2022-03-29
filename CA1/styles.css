@@ -102,7 +102,6 @@ a:hover {
 
 h1 {
   font-size: 30px;
-  text-align: center;
 }
 
 
@@ -118,6 +117,10 @@ h2 {
 p {
   color: black;
   font-size: large;
+}
+
+footer p {
+  margin: 0px;
 }
 
 
@@ -149,10 +152,6 @@ p {
   overflow: hidden;
 }
 
-footer p {
-  margin: 0px;
-}
-
 .map-area iframe {
   width: 100%;
 }
@@ -170,27 +169,6 @@ footer p {
     width: 100%;
   }
 }
-
-
-/* 
-.second-route-area{
-    padding-left: 3%;
-    float:left; 
-    background: #DAF7A6;
-    width:33.33%;
-    height:200px;
-    overflow: hidden;
-  }
-
-.third-bin-map{
-    padding-left: 3%;
-    padding-right:2%;
-    float:right;
-    background: #DAF7A6;
-    width:33.33%;
-    height:200px;
-    overflow: hidden;
-  } */
 
 
 /*Botton CSS*/
@@ -213,8 +191,7 @@ button {
 
 /*Social Media Button/links Area*/
 
-.socail-media-links,
-.map-button {
+.socail-media-links {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -265,19 +242,6 @@ footer {
 }
 
 
-/* About Page columns */
-
-.image-column {
-  float: auto;
-}
-
-.text-column {
-  float: left;
-  text-align: left;
-  width: 30%;
-}
-
-
 /* Information Sources Page columns */
 
 .text-area {
@@ -298,8 +262,8 @@ footer {
 
 .column {
   float: left;
-  padding: 2px;
-  width: 50%;
+  padding: 4px;
+  width: 45%;
 }
 
 * {
@@ -317,11 +281,13 @@ footer {
 
 .centre-image {
   text-align: center;
+  float: right;
 }
 
 .about-image {
   text-align: center;
   float: right;
+  padding: 2px;
 }
 
 

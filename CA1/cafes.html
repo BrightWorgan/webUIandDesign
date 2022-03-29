@@ -1,91 +1,105 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>VegDog</title>
-		<link href="styles.css" rel="stylesheet" type="text/css"/>
-        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> 
-    </head>
-    <body>
 
-        <!-- Banner image with logo-->
-        <img src="images/vegDogBannerLogo.jpg" class="banner-img" alt="mountain image with a dog shaped logo">
-        <br>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VegDog</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
 
-        <!-- Nav BAR -->
-        <nav>
-            <a href="index.html" class="active"><i class="fa fa-fw fa-home"></i>Home</a>
-            <a href="about.html"><i class="fa fa-user"></i>About Us</a>
-            <a href="contact.html"><i class="fa fa fa-envelope"></i>Contact Us</a>
-            <a href="goals.html"><i class="fa fa-circle"></i>Goals For The Future</a>
-            <a href="references.html"><i class="fa fa-book"></i>Information Sources</a>
-        </nav>
-        <br>
+<body>
 
-        <!--Opening Text Area-->
-        <div>
-            <h1>VegDog was created to help make travelling around both Ireland and Northern Ireland with our beloved dogs just a little easier. So are you ready for your next dog friendly adventure in Ireland?</h1>
-        </div>
-        <br>
+  <!-- Banner image with logo-->
+  <img src="images/vegDogBannerLogo.jpg" class="banner-img" alt="mountain image with a dog shaped logo">
+  <br>
 
-        <!-- Main Content Area- Will have multiple divs here with images-->
-        <div class="cafe-area">
-            <h2>Map of Cafes</h2>
-            <p>Both dog friendly and vegan/plant based cages are marked on the map below.</p> 
-            <p>The Dog symbol marks dog friendly and cuterly marks vegan/plantbased locations.</p>
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1yI1sskytnXkr-OXmzVvOfSWCSxdY7DHS&ehbc=2E312F" width="640" height="480"></iframe>  
-        <br>
-        <br>
-            <p>If you own a business that is Dog and/or Vegan friendly and are not on this map, please <a href="contact.html">Contact Us</a> today!</p>
-        <br>
-        </div>
-        <br>
-        <br>
+  <!-- Nav BAR -->
+  <nav>
+    <ul>
+      <li class="active"><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+      <li>
+        <a href="about.html"><i class="fa fa-user"></i>About Us</a>
+      </li>
+      <li><a href="contact.html"><i class="fa fa fa-envelope"></i>Contact Us</a></li>
+      <li><a href="goals.html"><i class="fa fa-circle"></i>Goals For The Future</a></li>
+      <li><a href="references.html"><i class="fa fa-book"></i>Information Sources</a></li>
+    </ul>
+  </nav>
 
-        <!--Page Divider-->
-        <hr class="rounded">
-        <br>
+  <!--Back to top button-->
+  <button id="myBtn">
+        <a href="#top">
+          <img src="images/chevron-double-up-resized.png" alt="double arrow pointing up">
+        </a>
+    </button>
 
-        <!-- posh/cute travel quoate for vibes -->
-        <div class="travel-quoate">
-        <h2>“The most beautiful thing in the world is, of course, the world itself” – Wallace Stevens</h2>
-        </div>
+  <!--Opening Text Area-->
+  <div>
+    <h1>VegDog was created to help make travelling around both Ireland and Northern Ireland with our beloved dogs just a little easier. So are you ready for your next dog friendly adventure in Ireland?</h1>
+  </div>
+  <br>
 
-        <!--Page Divider-->
-        <hr class="rounded">
-        <br>
+  <!-- Main Content Area- Will have multiple divs here with images-->
+  <div class="cafe-area">
+    <h2>Map of Cafes</h2>
+    <p>Both dog friendly and vegan/plant based cages are marked on the map below.</p>
+    <p>The Dog symbol marks dog friendly and cuterly marks vegan/plantbased locations.</p>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1yI1sskytnXkr-OXmzVvOfSWCSxdY7DHS&ehbc=2E312F" width="640" height="480"></iframe>
+    <br>
+    <br>
+    <p>If you own a business that is Dog and/or Vegan friendly and are not on this map, please <a href="contact.html">Contact Us</a> today!</p>
+    <br>
+  </div>
+  <br>
+  <br>
 
-        <!-- Social Media Links Area -->
-        <div class="socail-media-links">
-            <a href="http://www.facebook.com" target="_blank"><button><img src="https://img.icons8.com/ios/50/000000/facebook-new.png" alt="facebook logo image"/></button></a>
-            <a href="https://www.instagram.com//" target="_blank"><button><img src="https://img.icons8.com/ios/50/000000/instagram-new--v2.png" alt="instagram logo image"/></button></a>
-            <a href="https://twitter.com/" target="_blank"><button><img src="https://img.icons8.com/ios/50/000000/twitter--v1.png" alt="twitter logo image"/></button></a>
-        </div>
-        <br>
-        <br>
+  <!--Page Divider-->
+  <hr class="rounded">
+  <br>
 
-        <!--Page Divider-->
-        <hr class="rounded">
-        <br>
-        <br>
+  <!-- posh/cute travel quoate for vibes -->
+  <div class="travel-quoate">
+    <h2>“The most beautiful thing in the world is, of course, the world itself” – Wallace Stevens</h2>
+  </div>
 
-        <!--Back to top button-->
-        <button id="myBtn"><a href="#top"><img src="images/chevron-double-up-resized.png" alt="double arrow pointing up"></a></button>
-        <br>
+  <!--Page Divider-->
+  <hr class="rounded">
+  <br>
 
-        <!-- Banner image with logo-->
-        <div class="bottom-banner-image">
-        <img src="images/imageBannerDogsAdventures.jpg" class="banner-img" alt="collase of images with a dogs on adventures">
-        </div>
+  <!-- Social Media Links Area -->
+  <div class="socail-media-links">
+    <a href="http://www.facebook.com" target="_blank"><button><img src="https://img.icons8.com/ios/50/000000/facebook-new.png" alt="facebook logo image"/></button></a>
+    <a href="https://www.instagram.com//" target="_blank"><button><img src="https://img.icons8.com/ios/50/000000/instagram-new--v2.png" alt="instagram logo image"/></button></a>
+    <a href="https://twitter.com/" target="_blank"><button><img src="https://img.icons8.com/ios/50/000000/twitter--v1.png" alt="twitter logo image"/></button></a>
+  </div>
+  <br>
+  <br>
 
-        <!--Footer with text and link-->
-        <footer>
-            <p>Copyright © VEGDOG 2022     Website Designed by <a href="https://www.linkedin.com/in/sarah-halford-369b1414b/" target="_blank">Sarah</a> from <a href="http://www.cleancodecompany.com/" target="_blank">The Clean Code Company</a></p>        </footer>
-    </body>
+  <!--Page Divider-->
+  <hr class="rounded">
+  <br>
+  <br>
+
+  <!--Back to top button-->
+  <button id="myBtn"><a href="#top"><img src="images/chevron-double-up-resized.png" alt="double arrow pointing up"></a></button>
+  <br>
+
+  <!-- Banner image with logo-->
+  <div class="bottom-banner-image">
+    <img src="images/imageBannerDogsAdventures.jpg" class="banner-img" alt="collase of images with a dogs on adventures">
+  </div>
+
+  <!--Footer with text and link-->
+  <footer>
+    <p>Copyright © VEGDOG 2022 Website Designed by <a href="https://www.linkedin.com/in/sarah-halford-369b1414b/" target="_blank">Sarah</a> from <a href="http://www.cleancodecompany.com/" target="_blank">The Clean Code Company</a></p>
+  </footer>
+</body>
+
 </html>

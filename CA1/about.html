@@ -1,105 +1,157 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>VegDog</title>
-		<link href="styles.css" rel="stylesheet" type="text/css"/>
-        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> 
-    </head>
-    <body>
-        <!-- Banner image with logo-->
-        <img src="images/vegDogBannerLogo.jpg" class="banner-img" alt="mountain image with a dog shaped logo">
 
-        <!-- Nav BAR -->
-        <nav>
-            <a href="index.html" class="active"><i class="fa fa-fw fa-home"></i>Home</a>
-            <a href="about.html"><i class="fa fa-user"></i>About Us</a>
-            <a href="contact.html"><i class="fa fa fa-envelope"></i>Contact Us</a>
-            <a href="goals.html"><i class="fa fa-circle"></i>Goals For The Future</a>
-            <a href="references.html"><i class="fa fa-book"></i>Information Sources</a>
-        </nav>
-        <br>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VegDog</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
 
-        <!--Opening Text Area-->
-        <div>
-            <h1>VegDog was created to help make travelling around both Ireland and Northern Ireland with our beloved dogs just a little easier. So are you ready for your next dog friendly adventure in Ireland?</h1>
-        </div>
-        <br>
+<body>
+  <!-- Banner image with logo-->
+  <img src="images/vegDogBannerLogo.jpg" class="banner-img" alt="mountain image with a dog shaped logo">
 
-        <!-- Main Content Area -->
-        <div class="row">
-            <div class="column" >
-                <img class="about-image" src="images/resized_sarahSkadiZeusImage.jpg" alt="women with two dogs">
-            </div>
-            <div class="column">
-                <h2>Hi there! Welcome to Vegdog!</h2> 
-                <p>My name is Sarah and this is Zeus (four year old Alaskan Malamute) and Skadi (two year old Husky-mix) and we created VegDog.</p>
-                <p>The idea behind Vegdog was partly made in memormy of the one and only Jinny. Our beautiful black lab that loved her adventures with her pack around Ireland, who saldy passed in 2020.</p>
-                <p>We always tried to include our dogs in our staycations and weekend hikes, but always struggled with finding everything we wanted, especially after us (humans in our pack) went plant based.</p>
-                <p>After using several apps and spending quite a while planning a recent adventure, VegDog was created to help make travelling around both Ireland and Northern Ireland with our beloved dogs just a little easier.</p>
-                <p>Instead of using multiple webpages and apps to organise your next dog friendly day out, why not use our deadicated wesbite maps and information.</p>
-                <p>So are you ready for your next dog friendly adventure in Ireland?</p>
-            </div>
-        </div>
-        <br>
+  <!-- Nav BAR -->
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+      </li>
+      <li class="active">
+        <a href="about.html"><i class="fa fa-user"></i>About Us</a>
+      </li>
+      <li>
+        <a href="contact.html"><i class="fa fa fa-envelope"></i>Contact Us</a>
+      </li>
+      <li>
+        <a href="goals.html"><i class="fa fa-circle"></i>Goals For The Future</a>
+      </li>
+      <li>
+        <a href="references.html"><i class="fa fa-book"></i>Information Sources</a>
+      </li>
+    </ul>
+  </nav>
 
-        <!--Page Divider-->
-        <hr class="rounded">
-        <br>
+  <!--Back to top button-->
+  <button id="myBtn">
+        <a href="#top">
+          <img src="images/chevron-double-up-resized.png" alt="double arrow pointing up">
+        </a>
+    </button>
 
-    <!-- To Map Page Buttons -->
-    <div class="map-title-area">
-        <div class="first-food-area"> 
-            <a href="cafes.html"><button><h2>Map of Cafes</h2></button></a>
-        </div>
-        <div class="second-route-area">
-            <a href="routes.html"><button><h2>Map of Routes</h2></button></a>
-        </div>
-        <div class="third-bin-map">
-            <a href="wasteBins.html"><button><h2>Map of Bins</h2></button></a> 
-        </div>
+  <!--Opening Text Area-->
+  <div>
+    <h1>VegDog was created to help make travelling around both Ireland and Northern Ireland with our beloved dogs just a little easier. So are you ready for your next dog friendly adventure in Ireland?</h1>
+  </div>
 
-        <!--Page Divider-->
-        <hr class="rounded">
-        <br>
+  <!-- Main Content Area -->
+  <div class="row">
+    <div class="column">
+      <img class="about-image" src="images/resized_sarahSkadiZeusImage.jpg" alt="women with two dogs">
+    </div>
+    <div class="column">
+      <h2>Hi there! Welcome to Vegdog!</h2>
+      <p>My name is Sarah and this is Zeus (a four year old Alaskan Malamute) and Skadi (a two year old Husky-mix) and we created VegDog.</p>
+      <p>The idea behind Vegdog was partly made in memormy of the one and only Jinny. Our beautiful black lab that loved her adventures with her pack around Ireland, who saldy passed in 2020.</p>
+      <p>We always tried to include our dogs in our staycations and weekend hikes, but always struggled with finding everything we wanted, especially after us (humans in our pack) went plant based.</p>
+      <p>After using several apps and spending quite a while planning a recent adventure, VegDog was created to help make travelling around both Ireland and Northern Ireland with our beloved dogs just a little easier.</p>
+      <p>Instead of using multiple webpages and apps to organise your next dog friendly day out, why not use our deadicated wesbite maps and information.</p>
+      <p>So are you ready for your next dog friendly adventure in Ireland?</p>
+    </div>
+  </div>
 
-        <!-- posh/cute travel quoate for vibes -->
-        <div class="travel-quoate">
-        <h2>“The most beautiful thing in the world is, of course, the world itself” – Wallace Stevens</h2>
-        </div>
 
-       <!--Page Divider-->
-       <hr class="rounded">
-       <br>
+  <!--Page Divider-->
+  <hr class="rounded">
 
-        <!-- Social Media Links Area -->
-        <div class="socail-media-links">
-            <a href="http://www.facebook.com" target="_blank"><button><img src="https://img.icons8.com/ios/50/000000/facebook-new.png" alt="facebook logo image"/></button></a>
-            <a href="https://www.instagram.com//" target="_blank"><button><img src="https://img.icons8.com/ios/50/000000/instagram-new--v2.png" alt="instagram logo image"/></button></a>
-            <a href="https://twitter.com/" target="_blank"><button><img src="https://img.icons8.com/ios/50/000000/twitter--v1.png" alt="twitter logo image"/></button></a>
-        </div>
+  <!-- To Map Page Buttons -->
+  <div class="map-title-area">
+    <div class="map-area">
+      <a href="cafes.html">
+        <button>
+          <h2>Map of Cafes</h2>
+        </button>
+      </a>
+    </div>
+    <div class="map-area">
+      <a href="routes.html">
+        <button>
+          <h2>Map of Routes</h2>
+        </button>
+      </a>
 
-        <!--Page Divider-->
-        <hr class="rounded">
-        <br>
+    </div>
+    <div class="map-area">
+      <a href="wasteBins.html">
+        <button>
+          <h2>Map of Bins</h2>
+        </button>
+      </a>
+    </div>
+  </div>
 
-        <!--Back to top button-->
-        <button id="myBtn"><a href="#top"><img src="images/chevron-double-up-resized.png" alt="double arrow pointing up"></a></button>
-        <br>
 
-        <!-- Banner image with logo-->
-        <div class="bottom-banner-image">
-        <img src="images/wolfPack.jpg" class="banner-img" alt="collasied pf images with a dogs on adventures">
-        </div>
+  <!--Page Divider-->
+  <hr class="rounded">
 
-        <!--Footer with text and link-->
-        <footer>
-            <p>Copyright © VEGDOG 2022     Website Designed by <a href="https://www.linkedin.com/in/sarah-halford-369b1414b/" target="_blank">Sarah</a> from <a href="http://www.cleancodecompany.com/" target="_blank">The Clean Code Company</a></p>        </footer>
-    </body>
+  <!-- posh/cute travel quoate for vibes -->
+  <div class="travel-quoate">
+    <h2>“The most beautiful thing in the world is, of course, the world itself” – Wallace Stevens</h2>
+  </div>
+
+  <!--Page Divider-->
+  <hr class="rounded">
+
+  <!-- Social Media Links Area -->
+  <div class="socail-media-links">
+    <a href="http://www.facebook.com" target="_blank">
+      <button>
+                    <img src="https://img.icons8.com/ios/50/000000/facebook-new.png" alt="facebook logo image"/>
+                </button>
+    </a>
+    <a href="https://www.instagram.com//" target="_blank">
+      <button>
+                    <img src="https://img.icons8.com/ios/50/000000/instagram-new--v2.png" alt="instagram logo image"/>
+                </button>
+    </a>
+    <a href="https://twitter.com/" target="_blank">
+      <button>
+                    <img src="https://img.icons8.com/ios/50/000000/twitter--v1.png" alt="twitter logo image"/>
+                </button>
+    </a>
+  </div>
+
+  <!--Page Divider-->
+  <hr class="rounded">
+
+  <!--Back to top button-->
+  <button id="myBtn">
+            <a href="#top">
+                <img src="images/chevron-double-up-resized.png" alt="double arrow pointing up">
+            </a>
+        </button>
+
+  <!-- Banner image with logo-->
+  <div class="bottom-banner-image">
+    <img src="images/wolfPack.jpg" class="banner-img" alt="collasied pf images with a dogs on adventures">
+  </div>
+
+  <!--Footer with text and link-->
+  <footer>
+    <p>Copyright © VEGDOG 2022 Website Designed by
+      <a href="https://www.linkedin.com/in/sarah-halford-369b1414b/" target="_blank">Sarah</a> from
+      <a href="http://www.cleancodecompany.com/" target="_blank">The Clean Code Company</a>
+    </p>
+
+  </footer>
+
+</body>
+
 </html>
