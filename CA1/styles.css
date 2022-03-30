@@ -53,14 +53,6 @@ nav i {
 }
 
 
-/*
-Colour Palette :)
-FFF4C9
-C7E78B
-81AE64
-709053 */
-
-
 /* hover colour for link */
 
 nav li a:hover {
@@ -84,11 +76,7 @@ nav>a:hover {
 nav {
   width: 100%;
   background-color: #709053;
-  /* background colour */
-  /* font-size: 2em; */
-  /* text size */
   color: white;
-  /*text color*/
   padding-top: 1px;
   padding-bottom: 1px;
 }
@@ -98,10 +86,80 @@ a:visited,
 a:active,
 a:hover {
   color: white;
-  /*text color*/
 }
 
+
+/* hamburger-menu */
+
+
+/* Desktop and Tablet Screen Size */
+
+#hamnav {
+  width: 100%;
+  background: #709053;
+}
+
+#hamitems {
+  display: flex;
+}
+
+#hamitems a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+#hamitems a:hover {
+  background-color: #C7E78B;
+}
+
+
+/* (C) HIDE HAMBURGER */
+
+#hamnav label,
+#hamburger {
+  display: none;
+}
+
+
+/* Mobile Screen Size ( 768px was given by Keith/CA1 brief)*/
+
+@media screen and (max-width: 768px) {
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+  /* */
+  #hamnav label {
+    display: inline-block;
+    color: #709053;
+    background: white;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  /* TOGGLE */
+  #hamitems {
+    display: none;
+  }
+  #hamnav input:checked~#hamitems {
+    display: block;
+  }
+}
+
+
+/*end of nav styling!*/
+
 .opening-text {
+  text-align: justify;
+}
+
+.heading-text {
   text-align: center;
 }
 
