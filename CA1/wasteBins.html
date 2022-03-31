@@ -20,37 +20,33 @@
   <img src="images/vegDogBannerLogo.jpg" class="banner-img" alt="mountain image with a dog shaped logo">
 
   <!-- Nav BAR -->
-  <nav>
-    <ul>
-      <li>
-        <a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
-      <li>
-        <a href="about.html"><i class="fa fa-user"></i>About Us</a>
-      </li>
-      <li>
-        <a href="contact.html"><i class="fa fa fa-envelope"></i>Contact Us</a></li>
-      <li>
-        <a href="goals.html"><i class="fa fa-circle"></i>Goals For The Future</a></li>
-      <li>
-        <a href="references.html"><i class="fa fa-book"></i>Information Sources</a></li>
-    </ul>
-  </nav>
+  <nav id="responsive-nav">
 
-  <!-- Mobile Nav BAR -->
-  <label id="hamburger-menu">
-    <nav id="sidebar-menu">
-      <h3>Menu</h3>
+    <!-- Hamburger Menu -->
+    <label for="hamburger">&#9776;</label>
+    <input type="checkbox" id="hamburger" />
+
+    <!-- Menu Page Links -->
+    <div id="responsive-nav-items">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="goals.html">Goals</a></li>
-        <li><a href="references.html">Information Sources</a></li>
+        <li>
+          <a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a>
+        </li>
+        <li>
+          <a href="about.html"><i class="fa fa-user"></i>About Us</a>
+        </li>
+        <li>
+          <a href="contact.html"><i class="fa fa fa-envelope"></i>Contact Us</a>
+        </li>
+        <li>
+          <a href="goals.html"><i class="fa fa-circle"></i>Goals For The Future</a>
+        </li>
+        <li>
+          <a href="references.html"><i class="fa fa-book"></i>Information Sources</a>
+        </li>
       </ul>
-    </nav>
-  </label>
-
-  <div class="overlay"></div>
+    </div>
+  </nav>
 
   <!--Back to top button-->
   <button id="myBtn">
@@ -65,29 +61,12 @@
   </div>
 
   <!-- Main Content Area -->
-  <div class="row">
-    <div class="column">
-      <img class="centre-image" src="images/resized_250_forestImage.jpg" alt="path through a forest">
-    </div>
-    <div class="column">
-      <div class="mainContentArea">
-        <div class="first-food-area">
-          <h2>Did yiu know?</h2>
-          <p>Copy text copy text Woo!</p>
-        </div>
-        <div class="second-route-area">
-          <h2>Map of Routes</h2>
-          <p>Copy text copy text Woo!</p>
-        </div>
-        <div class="third-bin-map">
-          <h2>Map of Bins</h2>
-          <p>Copy text copy text Woo!</p>
-        </div>
-      </div>
-    </div>
+  <div class="centre-area">
+    <h2>Map of Waste Bins</h2>
+    <p>We all have bathroom needs, even our beloved dogs, so here is a handy map with all current bins.</p>
+    <p>Did you know that once your pet's "business" is cleaned up and it a tied bag it can be placed into either a standard litter or a dog waste bins.</p>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1O5Y830Wtt0Kh2QTz5vMb8gjgmruaCqXP&ehbc=2E312F" width="640" height="480"></iframe>
   </div>
-  </div>
-
 
   <!-- To Map Page Buttons -->
   <div class="map-title-area">
@@ -104,7 +83,6 @@
           <h2>Map of Routes</h2>
         </button>
       </a>
-
     </div>
     <div class="map-area">
       <a href="wasteBins.html">
@@ -131,9 +109,21 @@
 
   <!-- Social Media Links Area -->
   <div class="socail-media-links">
-    <a href="http://www.facebook.com" target="_blank"><button><img src="https://img.icons8.com/ios/50/000000/facebook-new.png" alt="facebook logo image"/></button></a>
-    <a href="https://www.instagram.com//" target="_blank"><button><img src="https://img.icons8.com/ios/50/000000/instagram-new--v2.png" alt="instagram logo image"/></button></a>
-    <a href="https://twitter.com/" target="_blank"><button><img src="https://img.icons8.com/ios/50/000000/twitter--v1.png" alt="twitter logo image"/></button></a>
+    <a href="http://www.facebook.com" target="_blank">
+      <button>
+        <img src="https://img.icons8.com/ios/50/000000/facebook-new.png" alt="facebook logo image"/>
+      </button>
+    </a>
+    <a href="https://www.instagram.com//" target="_blank">
+      <button>
+        <img src="https://img.icons8.com/ios/50/000000/instagram-new--v2.png" alt="instagram logo image"/>
+      </button>
+    </a>
+    <a href="https://twitter.com/" target="_blank">
+      <button>
+        <img src="https://img.icons8.com/ios/50/000000/twitter--v1.png" alt="twitter logo image"/>
+      </button>
+    </a>
   </div>
 
   <!--Page Divider-->
@@ -142,7 +132,7 @@
 
   <!-- Banner image with logo-->
   <div class="bottom-banner-image">
-    <img src="images/imageBannerDogsAdventures.jpg" class="banner-img" alt="collase of images with a dogs on adventures">
+    <img src="images/wolfPack.jpg" class="banner-img" alt="collase of images with a dogs on adventures">
   </div>
 
   <!--Footer with text and link-->
