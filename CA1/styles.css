@@ -318,21 +318,7 @@ footer {
   box-sizing: border-box;
 }
 
-
-/* Clear floats after the columns */
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .centre-image {
-  text-align: center;
-  float: right;
-}
-
-.about-image {
   text-align: center;
   float: right;
   padding: 2px;
