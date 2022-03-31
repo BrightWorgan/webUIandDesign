@@ -1,0 +1,383 @@
+/*
+Blue Colour Palette :
+( light to dark )
+#EFFFFD 
+#B8FFF9
+#85F4FF
+#42C2FF
+*/
+
+
+/*Main Body CSS*/
+
+body {
+  background-color: #EFFFFD;
+  padding: 0px;
+  margin: 0px;
+  font-family: Garamond, sans-serif;
+}
+
+
+/*Top image banner with logo*/
+
+.banner-img {
+  width: 100%;
+  max-height: 300px;
+  vertical-align: top;
+}
+
+
+/*Nav Bar styling*/
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #42C2FF;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav i {
+  margin: 5px;
+}
+
+*/
+/* hover colour for link */
+
+nav li a:hover {
+  background-color: #B8FFF9;
+}
+
+nav .active {
+  background-color: #85F4FF;
+}
+
+nav>.active {
+  float: none;
+  display: inline-block;
+}
+
+nav>a:hover {
+  opacity: 0.5;
+}
+
+nav {
+  width: 100%;
+  background-color: #709053;
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+*/ a:link,
+a:visited,
+a:active,
+a:hover {
+  color: white;
+}
+
+
+/* Hamburge Menu */
+
+
+/* Desktop and Tablet Screen Size */
+
+#responsive-nav {
+  width: 100%;
+  background: #42C2FF;
+}
+
+#responsive-nav-items a:hover {
+  background-color: #B8FFF9;
+}
+
+#responsive-nav label,
+#hamburger {
+  display: none;
+}
+
+
+/* Mobile Screen Size ( 768px was given by Keith/CA1 Brief)*/
+
+@media screen and (max-width: 768px) {
+  #responsive-nav-items li {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid white;
+  }
+  /* */
+  #responsive-nav label {
+    display: inline-block;
+    color: white;
+    background: #42C2FF;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  /* Toggle */
+  #responsive-nav-items {
+    display: none;
+  }
+  #responsive-nav input:checked~#responsive-nav-items {
+    display: block;
+  }
+}
+
+
+/*end of nav styling!*/
+
+.opening-text {
+  text-align: justify;
+}
+
+.heading-text {
+  text-align: center;
+}
+
+
+/* h1 */
+
+h1 {
+  font-size: 30px;
+}
+
+
+/* h2 */
+
+h2 {
+  font-size: 20px;
+}
+
+
+/* paragraph tag*/
+
+p {
+  color: black;
+  font-size: large;
+}
+
+footer p {
+  margin: 0px;
+}
+
+
+/* Page Divider */
+
+.rounded {
+  width: 50%;
+  text-align: center;
+  overflow: hidden;
+  color: #EFFFFD;
+}
+
+
+/* Main Content Area */
+
+.map-title-area {
+  overflow: hidden;
+  padding: 2%;
+  background-color: #EFFFFD;
+  text-align: center;
+}
+
+.map-area {
+  padding: 2%;
+  margin: 0px;
+  display: inline-block;
+  background: #EFFFFD;
+  width: 33%;
+  overflow: hidden;
+}
+
+.map-area iframe {
+  width: 100%;
+}
+
+.map-area p {
+  height: 25px;
+}
+
+.map-area button {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .map-area {
+    width: 100%;
+  }
+}
+
+
+/*Botton CSS*/
+
+button {
+  background-color: #42C2FF;
+  color: black;
+  cursor: pointer;
+}
+
+
+/* Travel Quoate */
+
+.travel-quoate {
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+}
+
+
+/*Social Media Button/links Area*/
+
+.socail-media-links {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+
+/*Back to the Top Button*/
+
+#myBtn {
+  overflow: hidden;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 2s;
+}
+
+
+/*Base image above footer*/
+
+.bottom-banner-image {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+/* Footer*/
+
+footer {
+  background-color: #42C2FF;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  vertical-align: baseline;
+}
+
+
+/* Information Sources Page columns */
+
+.text-area {
+  text-align: left;
+}
+
+
+/* Cafe Page column*/
+
+.centre-area {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+
+/* Contact Page column*/
+
+.column {
+  display: inline-block;
+  padding: 4px;
+  width: 45%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.centre-image {
+  text-align: center;
+  float: right;
+  padding: 2px;
+}
+
+
+/* Contact Form */
+
+.contact-container {
+  border-radius: 5px;
+  background-color: #DAF7A6;
+  padding: 20px;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+/* Submit button */
+
+input[type=submit] {
+  background-color: #42C2FF;
+  color: white;
+  padding: 12px 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  float: auto;
+}
+
+
+/* Reset button */
+
+input[type=reset] {
+  background-color: #42C2FF;
+  color: white;
+  padding: 12px 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  float: auto;
+}
+
+
+/* Contact Form Responsive layout --> when screen <= 768px in width, the columns stack vertically rather than next to each other */
+
+@media screen and (max-width: 768px) {
+  .col-25,
+  .col-75,
+  input[type=submit],
+  input[type=reset] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
