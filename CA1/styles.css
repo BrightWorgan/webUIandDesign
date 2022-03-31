@@ -87,7 +87,7 @@ a:hover {
 }
 
 
-/* hamburger-menu */
+/* Hamburge Menu */
 
 
 /* Desktop and Tablet Screen Size */
@@ -119,8 +119,8 @@ a:hover {
   /* */
   #responsive-nav label {
     display: inline-block;
-    color: #709053;
-    background: white;
+    color: white;
+    background: #709053;
     font-style: normal;
     font-size: 1.2em;
     padding: 10px;
@@ -309,7 +309,7 @@ footer {
 /* Contact Page column*/
 
 .column {
-  float: left;
+  display: inline-block;
   padding: 4px;
   width: 45%;
 }
@@ -350,7 +350,7 @@ footer {
 input[type=text],
 select,
 textarea {
-  width: 60%;
+  width: 100%;
   padding: 12px;
   border: 1px solid black;
   border-radius: 4px;
@@ -390,33 +390,13 @@ input[type=reset] {
 }
 
 
-/* Columns for contact form*/
-
-.col-25 {
-  float: auto;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: auto;
-  width: 75%;
-  margin-top: 6px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
 /* Contact Form Responsive layout --> when screen <= 768px in width, the columns stack vertically rather than next to each other */
 
 @media screen and (max-width: 768px) {
   .col-25,
   .col-75,
-  input[type=submit] {
+  input[type=submit],
+  input[type=reset] {
     width: 100%;
     margin-top: 0;
   }
