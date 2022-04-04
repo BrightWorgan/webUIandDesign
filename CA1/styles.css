@@ -213,7 +213,8 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-  .map-area {
+  .map-area,
+  .column {
     width: 100%;
   }
 }
@@ -325,6 +326,17 @@ footer {
 }
 
 
+/* Column Responsive layout --> when screen is less than 768px in width, */
+
+@media screen and (max-width: 767px) {
+  .column,
+  .centre-image {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
 /* Contact Form */
 
 .contact-container {
@@ -379,8 +391,6 @@ input[type=reset] {
 /* Contact Form Responsive layout --> when screen <= 768px in width, the columns stack vertically rather than next to each other */
 
 @media screen and (max-width: 768px) {
-  .col-25,
-  .col-75,
   input[type=submit],
   input[type=reset] {
     width: 100%;
