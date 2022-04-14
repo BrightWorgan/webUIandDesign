@@ -16,7 +16,7 @@ function changePic() {;
 }
 
 function addText() {
-
-  alert("Happy Christmas!");
+  var div = document.getElementById("extra")
+  div.innerHTML += "Happy Christmas!";
 
 }
