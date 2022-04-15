@@ -12,11 +12,12 @@ function changeText() {
 
 }
 
-function changePic() {;
+function changePic() {
+  var div = document.getElementById("image")
+  div.innerHTML = "<img src='banner.png'>";
 }
 
 function addText() {
   var div = document.getElementById("extra")
   div.innerHTML += "Happy Christmas!";
-
 }
