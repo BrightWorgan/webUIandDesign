@@ -1,0 +1,23 @@
+#nav a {
+  font-size: 1.2em;
+  padding-right: 2em;
+  text-decoration: none;
+  text-align: center;
+}
+
+#main {
+  text-align: center;
+}
+
+#pinkSquare {
+  border-style: solid;
+  border-color: plum;
+}
+
+#blueSquare {
+  border-style: solid;
+  border-color: blue;
+  width: 20%;
+  margin: auto;
+  padding: 10px;
+}
