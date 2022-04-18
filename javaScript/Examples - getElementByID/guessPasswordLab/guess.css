@@ -21,3 +21,7 @@
   margin: auto;
   padding: 10px;
 }
+
+label {
+  color: blue;
+}
