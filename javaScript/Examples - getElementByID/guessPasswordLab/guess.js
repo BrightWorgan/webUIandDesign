@@ -6,29 +6,50 @@ function storePassword() {
 
   storedPass = passInput.value;
 
+  passInput.value = '';
+  hideBox();
 }
 
-// Changes Styleing on Buttons
+// Changes Styling on Buttons
 function hideBox() {
-  if document.getElementById("storedPass") = display: hidden
-
+  let checkPassElement = document.getElementById('checkpass')
+  let storePassElement = document.getElementById('storepass')
+  if (checkPassElement.style.display === 'none') {
+    checkPassElement.style.display = '';
+  } else {
+    checkPassElement.style.display = 'none';
+  }
+  if (storePassElement.style.display === 'none') {
+    storePassElement.style.display = '';
+  } else {
+    storePassElement.style.display = 'none';
+  }
 }
-
 
 // Check User's Password 
-var count = 0
 
-
-var isPasswordCorrect = true
+// counter to count number of user passwords entered
+let count = 0
 
 function checkPassword() {
-  var x = document.getElementById("textArea");
+  //console.log('Clicked on checkPassword!!!')      //testy westy
 
-  if (isPasswordCorrect) {
-    x.innerHTML = "Incorrect. Try again, guesses: " + count;
+  // Grab the currently typed password value from the user
+  let passwordElement = document.getElementById('password')
+
+  // Compare it to the stored password
+  if (passwordElement.value === storedPass) {
+    let div = document.getElementById("textArea")
+    passwordElement.style.borderColor = 'green';
+    div.innerHTML = "\n Correct, that took " + count + " guesses.";
+
   } else {
-    x.innerHTML = "Correct, that took" + count + " guesses";
+    count += 1
+    let div = document.getElementById("textArea")
+    passwordElement.style.borderColor = 'red';
+    div.innerHTML = "\n Incorrect. Try again, guesses: " + count;
   }
-  isPasswordCorrect = !isPasswordCorrect
-  count += 1
+  passwordElement.value = ""
+    // If they are the same, change textarea to correct string
+    // If they are different, change textarea to incorrect + clear out password + add to count
 }

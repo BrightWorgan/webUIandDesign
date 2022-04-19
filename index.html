@@ -1,0 +1,73 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+  <h1 id="test">Hello</h1>
+  <div id="app">
+  </div>
+  <script>
+    // YOU CAN IGNORE THIS CODE IF YOU WANT
+    function doThing() {
+      console.log('I did the thing!')
+    }
+    const awesomeDoThing = () => {
+      console.log('I did the awesome thing!');
+    }
+    awesomeDoThing();
+
+    function runMyFunction(someFunction) {
+      someFunction();
+    }
+
+    // END WIERD CODE
+
+    var badVariable = 55; // Try not to use, can give unexpected results
+    let goodVariable = 55; // Better, more modern version of var
+    const bestVariable = 55; // Constant version of let
+
+    let addVar = goodVariable + bestVariable;
+    console.log(addVar); // Print to console
+    if (addVar > 55) {
+      console.log('addVar is greater then 55')
+    }
+
+    if (badVariable < 10) {
+      console.log('This will not run')
+    } else if (badVariable === 55) {
+      console.log('This will run!')
+    } else {
+      console.log('This wont run either...');
+    }
+
+    let loopTracker = 5;
+    while (loopTracker !== 0) {
+      console.log('Looooop', loopTracker);
+      loopTracker -= 1;
+    }
+
+    for (let i = 0; i < 5; i += 1) {
+      console.log('FOR LOOP', i);
+    }
+
+    let interpretString = `Hello, ${bestVariable}`;
+    let betterInterpretString = `Hello, ${bestVariable + 3434 + 23}`;
+    console.log(interpretString);
+    console.log(betterInterpretString);
+
+    const appElement = document.getElementById('app');
+    const ulElement = document.createElement('ul');
+    for (let i = 0; i < 1000; i += 1) {
+      const liElement = document.createElement('li');
+      liElement.innerText = i;
+      ulElement.appendChild(liElement);
+    }
+    appElement.appendChild(ulElement);
+
+    document.getElementById('test').style.backgroundColor = 'red';
+  </script>
+</body>
+
+</html>
