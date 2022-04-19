@@ -15,7 +15,8 @@
     <hr>
     <a href="index.html">Home</a>
     <a href="https://www.beyondidentity.com/blog/history-and-future-passwords" target="_blank">History</a>
-    <a href="https://twitter.com/home" target="_blank">Twitter</a>
+    <a href="https://twitter.com/home" target="_blank
+    ">Twitter</a>
     <hr>
 
   </nav>
@@ -24,15 +25,19 @@
     <div id="pinkSquare">
       <h1 id="firstHeading">Guess the Password</h1>
       <div id="blueSquare">
-        <h3 id=""></h3>
-        <p id=""></p>
-        <label>Enter Password:</label>
         <br>
         <br>
-        <input type="password">
+        <div id="password">
+          <label>Enter Password:</label>
+          <br>
+          <br>
+          <input type="password">
+          <br>
+        </div>
         <br>
-        <button type="button" onclick="white()">Submit</button>
-        <p>Incorrect Try Again, guesses: 2</p>
+        <button type="button" onclick="addPasswordText()">Submit</button>
+        <br>
+        <p id="textArea">Incorrect. Try again, guesses: n. </p>
       </div>
     </div>
   </div>
