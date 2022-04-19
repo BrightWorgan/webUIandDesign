@@ -27,15 +27,14 @@
       <div id="blueSquare">
         <br>
         <br>
-        <div id="password">
-          <label>Enter Password:</label>
-          <br>
-          <br>
-          <input type="password">
-          <br>
-        </div>
+        <label>Enter Password:</label>
         <br>
-        <button type="button" onclick="addPasswordText()">Submit</button>
+        <br>
+        <input id="password" type="password">
+        <br>
+        <br>
+        <button id="storepass" type="button" onclick="storePassword()">Submit</button>
+        <button id="checkpass" style="display: none" type="button" onclick="checkPassword()">Check</button>
         <br>
         <p id="textArea">Incorrect. Try again, guesses: n. </p>
       </div>
