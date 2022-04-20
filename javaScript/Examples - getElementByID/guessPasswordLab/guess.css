@@ -1,27 +1,33 @@
-#nav a {
-  font-size: 1.2em;
-  padding-right: 2em;
-  text-decoration: none;
-  text-align: center;
-}
-
-#main {
-  text-align: center;
-}
-
-#pinkSquare {
-  border-style: solid;
-  border-color: plum;
-}
-
-#blueSquare {
-  border-style: solid;
-  border-color: blue;
-  width: 20%;
-  margin: auto;
-  padding: 10px;
-}
-
-label {
-  color: blue;
-}
+  /* Nav bar styling */
+  
+  #nav a {
+    font-size: 1.2em;
+    padding-right: 2em;
+    text-decoration: none;
+    text-align: center;
+  }
+  /* Main area*/
+  
+  #main {
+    text-align: center;
+  }
+  /* Large square*/
+  
+  #pinkSquare {
+    border-style: solid;
+    border-color: plum;
+  }
+  /* Small square */
+  
+  #blueSquare {
+    border-style: solid;
+    border-color: blue;
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+  }
+  /* Text/Label colour (instructions wanted blue)  */
+  
+  label {
+    color: blue;
+  }

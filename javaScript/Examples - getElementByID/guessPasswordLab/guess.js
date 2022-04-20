@@ -32,24 +32,26 @@ function hideBox() {
 let count = 0
 
 function checkPassword() {
-  //console.log('Clicked on checkPassword!!!')      //testy westy
 
-  // Grab the currently typed password value from the user
+  // gets the currently typed password value from the user
   let passwordElement = document.getElementById('password')
 
-  // Compare it to the stored password
+  // compares it to the stored password
+  // If they are the same, change textarea to correct string
   if (passwordElement.value === storedPass) {
     let div = document.getElementById("textArea")
     passwordElement.style.borderColor = 'green';
     div.innerHTML = "\n Correct, that took " + count + " guesses.";
 
+    // if they are different, change textarea to incorrect + clear out password + add to count
   } else {
     count += 1
     let div = document.getElementById("textArea")
     passwordElement.style.borderColor = 'red';
     div.innerHTML = "\n Incorrect. Try again, guesses: " + count;
   }
+  // clears out password field
   passwordElement.value = ""
-    // If they are the same, change textarea to correct string
-    // If they are different, change textarea to incorrect + clear out password + add to count
+
+
 }
