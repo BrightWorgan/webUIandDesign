@@ -1,5 +1,5 @@
 promptUserHover() {
-  let userName = prompt("");
+  let userName = prompt("Hi there!, What is your name?");
 
   // if userMouse hovers over btn1;
   // do this 
@@ -13,9 +13,8 @@ promptUserHover() {
 }
 
 
-promptUserClickbtn() {
-  let userName = prompt("");
-
-  // if click me btn is clicked;
-  // alert("");
+clickbtn() {
+  num1 = alert("Please type a number");
+  num2 = alert("Please type another number");
+  console.log()
 }
