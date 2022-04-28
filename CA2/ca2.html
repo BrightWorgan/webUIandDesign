@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Web UI and Design CA2</title>
+  <link href="ca2.css" rel="stylesheet">
+  <script src="ca2.js" type="text/javascript"></script>
+</head>
+
+<body onload="startJava()">
+  <div id="headingArea">
+    <h1>Crypto Convertor</h1>
+  </div>
+  <br>
+  <div id="calculatorBox">
+    <!-- Calculator/Convertor  Form-->
+    <div class="calculator-container">
+      <form>
+        <label>Amount:</label>
+        <br>
+        <input id="amount" type="text" name="amount">
+        <br>
+        <br>
+        <label for="crypto">Crypto:</label>
+        <select id="crypto" name="crypto">
+          <option value="" disabled selected>Please select Crypto</option>
+          <option value="bitcoin">Bitcoin</option>
+          <option value="ethereum">Ethereum</option>
+          <option value="litecoin">Litecoin</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Convert" onclick="coinConvert()">
+        <br>
+        <br>
+        <h4 id="tally">Your Cryptocurrency is worth € </h4>
+        <br>
+        <br>
+        <input type="submit" value="Add To Total" onclick="totalCoin()">
+        <br>
+        <br>
+        <h4 id="total">Your Total Crypto is worth € </h4>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

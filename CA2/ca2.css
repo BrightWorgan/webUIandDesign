@@ -1,0 +1,7 @@
+#headingArea {}
+
+#calculatorBox {
+  background-color: gray;
+  width: 25%;
+  float: left;
+}
